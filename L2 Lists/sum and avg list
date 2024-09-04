@@ -1,0 +1,11 @@
+l=[4,2,6,1,7,9]
+print("Original list is: ",l)
+count=0
+for i in l:
+    count+=i
+avg = count/len(l)
+print("Sum= ",count)
+print("Avg= ",avg)
+l.sort()
+print("smallest number is: " ,l[3])
+print("largest number is: " ,l[5])
