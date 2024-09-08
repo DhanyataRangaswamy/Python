@@ -1,0 +1,13 @@
+tuplex=('Dhanyata',1,12.6)
+print(tuplex)
+tuplex=(1,2,3,4,5,6)
+print(tuplex)
+tuplex=tuplex+(9,)
+print(tuplex)
+tuplex1=(10,10,20,30,10,40)
+print(tuplex1.count(10))
+tuple1=(2,4,6,8,10,12)
+slice=tuple1[2:5]
+print(slice)
+slice1=tuple1[:4]
+print(slice1)
